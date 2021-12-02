@@ -13,7 +13,7 @@ body{
 
 .card{
     background-color: hsl(216, 50%, 16%);
-    margin: 50px auto;
+    margin: 25px auto;
     padding: 1.5em;
     border-radius: 1em;
     width: 375px;
@@ -40,7 +40,35 @@ body{
 }
 
 .info__title .title{
+    font-size: 1.2em;
     color: hsl(0,0%,100%);
     text-decoration: none;
     font-weight: 600;
 }
+
+.card__info .info{
+    color: hsl(215, 51%, 70%);
+    padding-bottom: 1em;
+}
+
+.info__points{
+    position: relative;
+}
+
+.info__points img{
+    vertical-align: middle;
+}
+
+.info__eth{
+    color: hsl(178, 100%, 50%);
+
+}
+
+.info__days{
+    position: absolute;
+    right: 0;
+    color: hsl(215, 51%, 70%);
+
+}
+
+
