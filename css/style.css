@@ -32,7 +32,8 @@ body{
 
 .card__info{
     position: relative;
-    padding: 1em 0;
+    padding: 1.5em 0;
+    border-bottom: 2px solid hsl(215, 32%, 27%);
 }
 
 .info__title{
@@ -48,27 +49,36 @@ body{
 
 .card__info .info{
     color: hsl(215, 51%, 70%);
-    padding-bottom: 1em;
+    padding-bottom: 1.5em;
 }
 
 .info__points{
     position: relative;
 }
 
-.info__points img{
-    vertical-align: middle;
+
+.info__points img {
+    vertical-align: text-top;
 }
+
 
 .info__eth{
     color: hsl(178, 100%, 50%);
-
 }
 
 .info__days{
     position: absolute;
     right: 0;
     color: hsl(215, 51%, 70%);
-
 }
+
+.card__footer img{
+    vertical-align: middle;
+    width: 2em;
+    border-radius: 50%;
+    border: 1px solid hsl(0,0%,100%);
+}
+
+
 
 
