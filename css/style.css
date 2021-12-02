@@ -22,6 +22,7 @@ body{
 
 .card__header{
     width: 100%;
+    position: relative;
 }
 
 .header__img{
@@ -88,6 +89,29 @@ body{
 .card__footer span a{
     color: hsl(0,0%,90%);
     text-decoration: none;
+}
+
+.card__header .img__active{
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 0;
+}
+
+.img__active img{
+    position: relative;
+    top: 40%;
+    left: 43%;
+    display: block;
+}
+
+ .img__active:active{
+    background: hsla(178 100% 50% / .5);
+    border-radius: 0.5em;
+    opacity: 1;
 }
 
 .card__footer span a:active,
