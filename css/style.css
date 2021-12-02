@@ -17,6 +17,8 @@ body{
     padding: 1.5em;
     border-radius: 1em;
     width: 375px;
+
+    box-shadow: 0 1em 2em .3em rgba(0, 0, 0, .3)
     /* text-align: center; */
 }
 
