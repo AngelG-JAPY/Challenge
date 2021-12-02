@@ -34,6 +34,7 @@ body{
     position: relative;
     padding: 1.5em 0;
     border-bottom: 2px solid hsl(215, 32%, 27%);
+    margin-bottom: 1em;
 }
 
 .info__title{
@@ -78,6 +79,22 @@ body{
     border-radius: 50%;
     border: 1px solid hsl(0,0%,100%);
 }
+
+.card__footer span{
+    padding-left: 1em;
+    color:hsl(215, 51%, 70%);
+}
+
+.card__footer span a{
+    color: hsl(0,0%,90%);
+    text-decoration: none;
+}
+
+.card__footer span a:active,
+.info__title .title:active{
+    color: hsl(178, 100%, 50%);
+}
+
 
 
 
